@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include forecast_engine *.css
+recursive-include forecast_engine *.csv
+recursive-include forecast_engine *.html
+recursive-include forecast_engine *.ico
+recursive-include forecast_engine *.js
+recursive-include forecast_engine *.json
+recursive-include forecast_engine *.md
+recursive-include forecast_engine *.png
+recursive-include forecast_engine *.py
+recursive-include forecast_engine *.svg
+recursive-include forecast_engine *.txt
+recursive-exclude forecast_engine *.pyc
